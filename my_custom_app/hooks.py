@@ -5,6 +5,8 @@ app_description = "my custom app"
 app_email = "darrshan+customapp@mobicip.com"
 app_license = "mit"
 
+fixtures = ["Custom Field"]
+
 # Apps
 # ------------------
 
