@@ -5,7 +5,11 @@ app_description = "my custom app"
 app_email = "darrshan+customapp@mobicip.com"
 app_license = "mit"
 
-fixtures = ["Custom Field", "Client Script"]
+fixtures = ["Custom Field", "Client Script", "Server Script"]
+
+override_doctype_class = {
+    "Task": "my_custom_app.overrides.task.CustomTask"
+}
 
 # Apps
 # ------------------
